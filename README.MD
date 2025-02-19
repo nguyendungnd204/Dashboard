@@ -1,49 +1,71 @@
-# famous-parts-bet
+# Refine React Admin Dashboard
 
-<div align="center" style="margin: 30px;">
-    <a href="https://refine.dev">
-    <img alt="refine logo" src="https://refine.ams3.cdn.digitaloceanspaces.com/readme/refine-readme-banner.png">
-    </a>
-</div>
-<br/>
+## 📌 Giới Thiệu
 
-This [Refine](https://github.com/refinedev/refine) project was generated with [create refine-app](https://github.com/refinedev/refine/tree/master/packages/create-refine-app).
+Dự án **Refine React Admin Dashboard** là một ứng dụng quản trị mạnh mẽ, hiện đại được xây dựng bằng [Refine](https://refine.dev/) và React. Dự án tích hợp các tính năng quan trọng như:
 
-## Getting Started
+- Biểu đồ trực quan (Charts)
+- Quản lý khách hàng (CRM)
+- Kanban Board
+- Quản lý sự kiện (Events)
+- Xử lý dữ liệu theo thời gian thực
 
-A React Framework for building internal tools, admin panels, dashboards & B2B apps with unmatched flexibility ✨
+## 🚀 Công Nghệ Sử Dụng
 
-Refine's hooks and components simplifies the development process and eliminates the repetitive tasks by providing industry-standard solutions for crucial aspects of a project, including authentication, access control, routing, networking, state management, and i18n.
+- **React + Refine** - Framework chính
+- **Ant Design** - Giao diện UI/UX
+- **React Router** - Điều hướng trang
+- **Redux Toolkit** - Quản lý trạng thái
+- **Axios** - Giao tiếp API
+- **Chart.js / Recharts** - Biểu đồ dữ liệu
+- **Firebase / Supabase** - Backend thời gian thực (tuỳ chọn)
 
-## Available Scripts
+## 📂 Cấu Trúc Thư Mục
 
-### Running the development server.
-
-```bash
-    npm run dev
+```
+📦 src
+ ┣ 📂 components   # Các thành phần tái sử dụng
+ ┣ 📂 pages        # Các trang chính (Dashboard, Login, CRM...)
+ ┣ 📂 assets       # Ảnh, biểu tượng
+ ┣ 📂 hooks        # Custom hooks
+ ┣ 📂 context      # Quản lý trạng thái
+ ┣ 📂 services     # API services
+ ┣ 📜 App.tsx      # Cấu hình chính
+ ┣ 📜 main.tsx     # Entry point
 ```
 
-### Building for production.
+## 🛠️ Cài Đặt & Chạy Dự Án
 
-```bash
-    npm run build
+### 1️⃣ Clone Repository
+```sh
+git clone https://github.com/your-username/refine-react-dashboard.git
+cd refine-react-dashboard
 ```
 
-### Running the production server.
-
-```bash
-    npm run start
+### 2️⃣ Cài Đặt Dependencies
+```sh
+yarn install   # Hoặc npm install
 ```
 
-## Learn More
+### 3️⃣ Chạy Dự Án
+```sh
+yarn dev   # Hoặc npm run dev
+```
 
-To learn more about **Refine**, please check out the [Documentation](https://refine.dev/docs)
+Dự án sẽ chạy tại `http://localhost:5137`
 
-- **NestJS Query Data Provider** [Docs](https://refine.dev/docs/data/packages/nestjs-query/)
-- **Ant Design** [Docs](https://refine.dev/docs/ui-frameworks/antd/tutorial/)
-- **React Router** [Docs](https://refine.dev/docs/core/providers/router-provider/)
-- **Custom Auth Provider** [Docs](https://refine.dev/docs/core/providers/auth-provider/)
+## 📌 Tính Năng Chính
 
-## License
+✅ Dashboard tổng quan dữ liệu
+✅ Quản lý khách hàng (CRM)
+✅ Tích hợp biểu đồ dữ liệu (Chart.js / Recharts)
+✅ Kanban Board để quản lý công việc
+✅ Hỗ trợ xác thực người dùng
+✅ Xử lý dữ liệu theo thời gian thực
 
-MIT
+## 📜 Giấy Phép
+Dự án này được phát hành dưới giấy phép **MIT License**. Bạn có thể tự do sử dụng và chỉnh sửa.
+
+---
+✉ Nếu bạn thấy dự án hữu ích, hãy ⭐ trên GitHub và đóng góp nhé!
+
