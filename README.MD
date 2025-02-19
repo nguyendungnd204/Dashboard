@@ -20,20 +20,6 @@ Dự án **Refine React Admin Dashboard** là một ứng dụng quản trị m�
 - **Chart.js / Recharts** - Biểu đồ dữ liệu
 - **Firebase / Supabase** - Backend thời gian thực (tuỳ chọn)
 
-## 📂 Cấu Trúc Thư Mục
-
-```
-📦 src
- ┣ 📂 components   # Các thành phần tái sử dụng
- ┣ 📂 pages        # Các trang chính (Dashboard, Login, CRM...)
- ┣ 📂 assets       # Ảnh, biểu tượng
- ┣ 📂 hooks        # Custom hooks
- ┣ 📂 context      # Quản lý trạng thái
- ┣ 📂 services     # API services
- ┣ 📜 App.tsx      # Cấu hình chính
- ┣ 📜 main.tsx     # Entry point
-```
-
 ## 🛠️ Cài Đặt & Chạy Dự Án
 
 ### 1️⃣ Clone Repository
@@ -63,9 +49,4 @@ Dự án sẽ chạy tại `http://localhost:5137`
 ✅ Hỗ trợ xác thực người dùng
 ✅ Xử lý dữ liệu theo thời gian thực
 
-## 📜 Giấy Phép
-Dự án này được phát hành dưới giấy phép **MIT License**. Bạn có thể tự do sử dụng và chỉnh sửa.
-
----
-✉ Nếu bạn thấy dự án hữu ích, hãy ⭐ trên GitHub và đóng góp nhé!
 
