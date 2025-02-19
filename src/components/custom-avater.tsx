@@ -1,11 +1,20 @@
-import {Avatar as AntdAvatar} from 'antd';
+import {Avatar as AntdAvatar, AvatarProps} from 'antd';
 
-const CustomAvater = () => {
+type Props = AvatarProps & {
+    name: string;
+}
+const CustomAvater = ({name, style, ...rest}: Props) => {
   return (
     <AntdAvatar
-    alt=''
+    alt={'JavaScript Dung'}
+    size={"small"}
+    style={{backgroundColor: '#87d068',
+        display: 'flex',
+        alignItems: 'center',
+        border: 'none'
+    }}
     >
-        JM
+        {name}
     </AntdAvatar>
   )
 }
