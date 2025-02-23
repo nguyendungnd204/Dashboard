@@ -17,8 +17,8 @@ Dự án **Refine React Admin Dashboard** là một ứng dụng quản trị m�
 - **React Router** - Điều hướng trang
 - **Redux Toolkit** - Quản lý trạng thái
 - **Axios** - Giao tiếp API
-- **Chart.js / Recharts** - Biểu đồ dữ liệu
-- **Firebase / Supabase** - Backend thời gian thực (tuỳ chọn)
+- **Chart.js** - Biểu đồ dữ liệu
+- **Firebase** - Backend thời gian thực 
 
 ## 🛠️ Cài Đặt & Chạy Dự Án
 
